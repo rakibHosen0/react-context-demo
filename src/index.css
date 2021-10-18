@@ -1,13 +1,59 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.root-tree{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.tree-1{
+    width: 500px;
+    height: 500px;
+    background-color:#90AACB;
+}
+.tree-1:hover{
+    box-shadow: 10px 8px 27px 2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 8px 27px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 8px 27px 2px rgba(0,0,0,0.75);
+}
+
+.tree-2{
+    width: 400px;
+    height: 400px;
+    background-color:#FFB085;
+}
+.tree-3{
+    width: 300px;
+    height: 300px;
+    background-color:#F9D5A7;
+}
+.tree-4{
+    width: 200px;
+    height: 200px;
+    background-color:#F9E4C8;
+}
+.tree-5{
+    width: 100px;
+    height: 100px;
+    background-color:#FEF1E6;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    border-radius: 25px;
+    border-color: aquamarine;
+    background-color: orange;
+}
+.btn:hover{
+    border-color: brown;
 }
